@@ -3,19 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9253CC0C258A05A8003AD78B /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9253CC0B258A05A8003AD78B /* SVGKit.framework */; };
+		9253CC12258A0CC6003AD78B /* AllCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC11258A0CC6003AD78B /* AllCountriesViewController.swift */; };
+		9253CC17258A0F6C003AD78B /* firstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC15258A0F6C003AD78B /* firstTableViewCell.swift */; };
+		9253CC18258A0F6C003AD78B /* firstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9253CC16258A0F6C003AD78B /* firstTableViewCell.xib */; };
+		9253CC1C258A2D61003AD78B /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC1B258A2D61003AD78B /* CountryDetailViewController.swift */; };
+		9253CC1F258A688D003AD78B /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC1E258A688D003AD78B /* MainGameViewController.swift */; };
+		9253CC22258A6925003AD78B /* FlagGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC21258A6925003AD78B /* FlagGameViewController.swift */; };
+		9253CC25258A7475003AD78B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253CC24258A7475003AD78B /* MapViewController.swift */; };
+		927460A0258B92760008B622 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9274609F258B92760008B622 /* CardsViewController.swift */; };
+		927460A4258BBC020008B622 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927460A2258BBC020008B622 /* CardTableViewCell.swift */; };
+		927460A5258BBC020008B622 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927460A3258BBC020008B622 /* CardTableViewCell.xib */; };
 		928356AC258896970066A346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356AB258896970066A346 /* AppDelegate.swift */; };
 		928356AE258896970066A346 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356AD258896970066A346 /* SceneDelegate.swift */; };
 		928356B0258896970066A346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356AF258896970066A346 /* ViewController.swift */; };
 		928356B3258896970066A346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928356B1258896970066A346 /* Main.storyboard */; };
 		928356B5258896990066A346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928356B4258896990066A346 /* Assets.xcassets */; };
 		928356B8258896990066A346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928356B6258896990066A346 /* LaunchScreen.storyboard */; };
+		928356C12588972F0066A346 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356C02588972F0066A346 /* LoginViewController.swift */; };
+		928356CD25889A0A0066A346 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356CC25889A0A0066A346 /* User.swift */; };
+		928356D12588A0C10066A346 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356D02588A0C10066A346 /* RegisterViewController.swift */; };
+		928356D42588A1900066A346 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356D32588A1900066A346 /* MainTabBarController.swift */; };
+		928356D72588A2200066A346 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356D62588A2200066A346 /* ProfileViewController.swift */; };
+		928356DA2588A27E0066A346 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356D92588A27E0066A346 /* EditProfileViewController.swift */; };
+		928356DD2588AB160066A346 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356DC2588AB160066A346 /* GameViewController.swift */; };
+		928356E02588ADAD0066A346 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928356DF2588ADAD0066A346 /* Country.swift */; };
+		92DFA88A258B1AD0004D64AE /* FlagCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFA889258B1AD0004D64AE /* FlagCardsViewController.swift */; };
+		92DFA88D258B1AE6004D64AE /* CapitalCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFA88C258B1AE6004D64AE /* CapitalCardsViewController.swift */; };
+		B65E3A37E5B908194915D744 /* Pods_finalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B0626D536779D36BDCAA2A /* Pods_finalProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60374F2CB438293F31ACD14F /* Pods-finalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProject.debug.xcconfig"; path = "Target Support Files/Pods-finalProject/Pods-finalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9253CC0B258A05A8003AD78B /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9253CC11258A0CC6003AD78B /* AllCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountriesViewController.swift; sourceTree = "<group>"; };
+		9253CC15258A0F6C003AD78B /* firstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableViewCell.swift; sourceTree = "<group>"; };
+		9253CC16258A0F6C003AD78B /* firstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = firstTableViewCell.xib; sourceTree = "<group>"; };
+		9253CC1B258A2D61003AD78B /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		9253CC1E258A688D003AD78B /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		9253CC21258A6925003AD78B /* FlagGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagGameViewController.swift; sourceTree = "<group>"; };
+		9253CC24258A7475003AD78B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9274609F258B92760008B622 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		927460A2258BBC020008B622 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		927460A3258BBC020008B622 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
 		928356A8258896970066A346 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928356AB258896970066A346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		928356AD258896970066A346 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +58,18 @@
 		928356B4258896990066A346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928356B7258896990066A346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928356B9258896990066A346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928356C02588972F0066A346 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		928356CC25889A0A0066A346 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		928356D02588A0C10066A346 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		928356D32588A1900066A346 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		928356D62588A2200066A346 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		928356D92588A27E0066A346 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		928356DC2588AB160066A346 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		928356DF2588ADAD0066A346 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		92DFA889258B1AD0004D64AE /* FlagCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCardsViewController.swift; sourceTree = "<group>"; };
+		92DFA88C258B1AE6004D64AE /* CapitalCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCardsViewController.swift; sourceTree = "<group>"; };
+		C7B0626D536779D36BDCAA2A /* Pods_finalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BE8CCFD8EFA10703C907D0 /* Pods-finalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProject.release.xcconfig"; path = "Target Support Files/Pods-finalProject/Pods-finalProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9253CC0C258A05A8003AD78B /* SVGKit.framework in Frameworks */,
+				B65E3A37E5B908194915D744 /* Pods_finalProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54F7107669F85CD56B612D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9253CC0B258A05A8003AD78B /* SVGKit.framework */,
+				C7B0626D536779D36BDCAA2A /* Pods_finalProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF9BB49E62D2B312E7ECE40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60374F2CB438293F31ACD14F /* Pods-finalProject.debug.xcconfig */,
+				F8BE8CCFD8EFA10703C907D0 /* Pods-finalProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9253CC14258A0F2E003AD78B /* tableCells */ = {
+			isa = PBXGroup;
+			children = (
+				9253CC15258A0F6C003AD78B /* firstTableViewCell.swift */,
+				9253CC16258A0F6C003AD78B /* firstTableViewCell.xib */,
+				927460A2258BBC020008B622 /* CardTableViewCell.swift */,
+				927460A3258BBC020008B622 /* CardTableViewCell.xib */,
+			);
+			path = tableCells;
+			sourceTree = "<group>";
+		};
 		9283569F258896970066A346 = {
 			isa = PBXGroup;
 			children = (
 				928356AA258896970066A346 /* finalProject */,
 				928356A9258896970066A346 /* Products */,
+				8AF9BB49E62D2B312E7ECE40 /* Pods */,
+				54F7107669F85CD56B612D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +135,8 @@
 		928356AA258896970066A346 /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				9253CC14258A0F2E003AD78B /* tableCells */,
+				928356CB258899BF0066A346 /* Model */,
 				928356AB258896970066A346 /* AppDelegate.swift */,
 				928356AD258896970066A346 /* SceneDelegate.swift */,
 				928356AF258896970066A346 /* ViewController.swift */,
@@ -63,8 +144,31 @@
 				928356B4258896990066A346 /* Assets.xcassets */,
 				928356B6258896990066A346 /* LaunchScreen.storyboard */,
 				928356B9258896990066A346 /* Info.plist */,
+				928356C02588972F0066A346 /* LoginViewController.swift */,
+				928356D02588A0C10066A346 /* RegisterViewController.swift */,
+				928356D32588A1900066A346 /* MainTabBarController.swift */,
+				928356D62588A2200066A346 /* ProfileViewController.swift */,
+				928356D92588A27E0066A346 /* EditProfileViewController.swift */,
+				928356DC2588AB160066A346 /* GameViewController.swift */,
+				9253CC11258A0CC6003AD78B /* AllCountriesViewController.swift */,
+				9253CC1B258A2D61003AD78B /* CountryDetailViewController.swift */,
+				9253CC1E258A688D003AD78B /* MainGameViewController.swift */,
+				9253CC21258A6925003AD78B /* FlagGameViewController.swift */,
+				9253CC24258A7475003AD78B /* MapViewController.swift */,
+				92DFA889258B1AD0004D64AE /* FlagCardsViewController.swift */,
+				92DFA88C258B1AE6004D64AE /* CapitalCardsViewController.swift */,
+				9274609F258B92760008B622 /* CardsViewController.swift */,
 			);
 			path = finalProject;
+			sourceTree = "<group>";
+		};
+		928356CB258899BF0066A346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				928356CC25889A0A0066A346 /* User.swift */,
+				928356DF2588ADAD0066A346 /* Country.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 928356BC258896990066A346 /* Build configuration list for PBXNativeTarget "finalProject" */;
 			buildPhases = (
+				0692B2C9B3967B09896E589E /* [CP] Check Pods Manifest.lock */,
 				928356A4258896970066A346 /* Sources */,
 				928356A5258896970066A346 /* Frameworks */,
 				928356A6258896970066A346 /* Resources */,
+				6EE46BCD7EBA6BCCD2EB8CC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +232,82 @@
 			files = (
 				928356B8258896990066A346 /* LaunchScreen.storyboard in Resources */,
 				928356B5258896990066A346 /* Assets.xcassets in Resources */,
+				927460A5258BBC020008B622 /* CardTableViewCell.xib in Resources */,
+				9253CC18258A0F6C003AD78B /* firstTableViewCell.xib in Resources */,
 				928356B3258896970066A346 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0692B2C9B3967B09896E589E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE46BCD7EBA6BCCD2EB8CC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalProject/Pods-finalProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalProject/Pods-finalProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finalProject/Pods-finalProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		928356A4258896970066A346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DFA88A258B1AD0004D64AE /* FlagCardsViewController.swift in Sources */,
+				9253CC1F258A688D003AD78B /* MainGameViewController.swift in Sources */,
+				928356DD2588AB160066A346 /* GameViewController.swift in Sources */,
+				92DFA88D258B1AE6004D64AE /* CapitalCardsViewController.swift in Sources */,
+				928356C12588972F0066A346 /* LoginViewController.swift in Sources */,
+				9253CC12258A0CC6003AD78B /* AllCountriesViewController.swift in Sources */,
 				928356B0258896970066A346 /* ViewController.swift in Sources */,
 				928356AC258896970066A346 /* AppDelegate.swift in Sources */,
+				928356D42588A1900066A346 /* MainTabBarController.swift in Sources */,
+				928356D12588A0C10066A346 /* RegisterViewController.swift in Sources */,
+				928356CD25889A0A0066A346 /* User.swift in Sources */,
+				928356E02588ADAD0066A346 /* Country.swift in Sources */,
+				927460A0258B92760008B622 /* CardsViewController.swift in Sources */,
+				927460A4258BBC020008B622 /* CardTableViewCell.swift in Sources */,
+				9253CC22258A6925003AD78B /* FlagGameViewController.swift in Sources */,
+				928356D72588A2200066A346 /* ProfileViewController.swift in Sources */,
+				9253CC1C258A2D61003AD78B /* CountryDetailViewController.swift in Sources */,
+				9253CC17258A0F6C003AD78B /* firstTableViewCell.swift in Sources */,
 				928356AE258896970066A346 /* SceneDelegate.swift in Sources */,
+				928356DA2588A27E0066A346 /* EditProfileViewController.swift in Sources */,
+				9253CC25258A7475003AD78B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +451,7 @@
 		};
 		928356BD258896990066A346 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60374F2CB438293F31ACD14F /* Pods-finalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +470,7 @@
 		};
 		928356BE258896990066A346 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BE8CCFD8EFA10703C907D0 /* Pods-finalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
